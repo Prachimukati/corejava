@@ -1,6 +1,6 @@
 package in.com.Interface;
 
-public interface Socialworker  {
+public interface Socialworker  extends Richman{
 	
 	public void helptoOther();
 		

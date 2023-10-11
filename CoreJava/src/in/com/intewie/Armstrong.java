@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	
 	while (d>0) {
 		c = d % 10;
-		b = b + (c * c * c);
+		b = d + (c * c * c);
 		d = d/10;
 	}
 	if( b == a) {
@@ -21,3 +21,4 @@ public static void main(String[] args) {
 	}
 }
 }
+
