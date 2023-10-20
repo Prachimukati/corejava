@@ -1,10 +1,9 @@
-package in.com.Iterator;
+package in.com.comparator;
 
 public class Employee {
-
-	private int  id = 0;
-	private String address = null;
-	private String name = null;
+	private int  id;
+	private String address;
+	private String name;
 	
 	public  Employee (int id ,String name , String address) {
 		this.id = id;
@@ -32,6 +31,5 @@ public class Employee {
 	@Override
 		public String toString() {
 			return id+ " " + name + " " + address;
-		}
-	}
-
+	}	
+}
