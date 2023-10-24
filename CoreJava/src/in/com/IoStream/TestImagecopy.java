@@ -18,6 +18,5 @@ public static void main(String[] args) throws IOException {
 	out.close();
 	System.out.println("Data is copy");
 	
-	
 }
 }

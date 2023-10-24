@@ -16,6 +16,7 @@ public class Buisnessman implements Richman , Socialworker{
 
 	@Override
 	public void party() {
+		
 		System.out.println("gives party");
 		
 	}
