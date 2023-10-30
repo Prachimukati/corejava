@@ -31,9 +31,6 @@ public static void main(String[] args) {
 				Employee e = (Employee) it.next();
 				System.out.println(e);
 			}
-		}
-		
-	}
-	
+		}		
+	}	
 }
-

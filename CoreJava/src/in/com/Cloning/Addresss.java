@@ -1,7 +1,7 @@
 package in.com.Cloning;
 
 public class Addresss implements Cloneable{
-	int address;
+	String address=null;
 	
 	@Override
 	protected Object clone() throws CloneNotSupportedException {

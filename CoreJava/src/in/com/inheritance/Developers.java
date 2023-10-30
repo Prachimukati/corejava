@@ -5,7 +5,7 @@ public class Developers extends Employe2{
 	private String address = null;
 	private int salary = 0 ;
     private String job_tittle = null;
-    
+                         
 	public void setName(String name) {
 		this.name = name;
 	}
